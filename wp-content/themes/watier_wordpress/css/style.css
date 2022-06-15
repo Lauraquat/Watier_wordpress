@@ -1,0 +1,87 @@
+/* Custom CSS */
+*{
+    box-sizing : border-box;
+}
+main{
+    margin-left: 2rem;
+}
+
+.image{
+    height: auto;
+    width: 100%;
+}
+
+.site-branding{
+    display: inline;
+}
+
+h1, h2{
+    color: darkslategrey;
+    text-align: center;
+}
+
+h1{
+    padding-top: 2rem;
+}
+
+li{
+	list-style: none;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+.articles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card{
+    border: solid 0.2rem;
+    border-color: darkslategrey;
+    border-radius: 10%;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    width: 30%;
+    margin-top: 2.5rem;
+}
+
+.titre{
+    font-weight: bold;
+    color: darkslategray;
+}
+
+button{
+    border: solid 0.1rem;
+    border-radius: 10rem;
+    padding: 1rem;
+    background-color: darkslategrey;
+    color: white;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
+
+.categorie{
+    width: 10rem;
+    font-size: 1.2rem;
+    border: solid 0.1rem;
+    border-radius: 10rem;
+    padding: 1.2rem;
+    background-color: darkslategrey;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.archive-description>p{
+    text-align: center;
+    font-size: 1.3rem;
+}
