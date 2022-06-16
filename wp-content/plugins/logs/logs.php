@@ -70,8 +70,8 @@ function add_logs($post_id, $post, $update){
             'logs_username' => $user->user_login,
             'logs_userId' => $user->user_ID,
             'logs_postname' => $post->name,
-            'logs_action' => 
-            'logs_date' Date('Y-m-d'),
+            'logs_action' => "",
+            'logs_date' => Date('Y-m-d'),
         ];
 
         $wpdb->insert($table_name, $datas);
